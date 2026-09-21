@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "GitHub Unveiler",
-  "version": "1.10.0",
+  "name": "Display Name Unveiler",
+  "version": "1.11.0",
   "description": "Replaces GitHub usernames with display names in GitHub and GitHub Enterprise instances.",
   "permissions": [
     "scripting",
@@ -10,7 +10,7 @@
   ],
   "optional_host_permissions": ["https://*/*"],
   "action": {
-    "default_title": "Enable GitHub Unveiler"
+    "default_title": "Enable Display Name Unveiler"
   },
   "background": {
     "service_worker": "background.js"
